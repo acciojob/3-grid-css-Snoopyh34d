@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    gap: 10px; /* Gap between grid items */
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    text-align: center; /* Center text */
+    padding: 20px;
+}
